@@ -27,4 +27,6 @@ else
     echo "Already a tag on this commit"
 fi
 
-echo "The latest tag is $New_TAG"
+echo "The latest tag is $NEW_TAG"
+
+echo "$NEEDS_TAG"
