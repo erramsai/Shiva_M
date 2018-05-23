@@ -4,6 +4,6 @@
 VERSION=`git describe --abbrev=0 --tags`
 
 #To split the numbers into array
-VERSION_BITS= (${VERSION//./ })
+VERSION_BITS=(${VERSION//./ })
 
 echo $VERSION_BITS
