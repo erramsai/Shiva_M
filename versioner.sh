@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#To find the highest tag number
+#To find the highest tag number.
 VERSION=`git describe --abbrev=0 --tags`
 
-#To split the numbers into array
+#To split the numbers into array.
 VERSION_BITS=(${VERSION//./ })
 
-#To get the number parts from array
+#To get the number parts from array.
 VNUM1=${VERSION_BITS[0]}
 VNUM2=${VERSION_BITS[1]}
 VNUM2=$((VNUM2+1))
